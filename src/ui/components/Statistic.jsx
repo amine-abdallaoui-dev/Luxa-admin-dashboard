@@ -46,7 +46,7 @@ const Statistic = ({ stats }) => {
           <div className="flex justify-between items-center z-10 relative">
             <div className="flex flex-col">
               <h4 className="text-gray-500 font-medium text-sm tracking-wide uppercase mb-1">{card.label}</h4>
-              <h3 className="font-bold text-3xl text-slate-800">{card.value}</h3>
+              <h3 className="font-bold text-3xl text-slate-800">20</h3>
             </div>
             <div className={`flex items-center justify-center w-16 h-16 rounded-2xl ${card.bg} border ${card.border} group-hover:scale-110 transition-transform duration-300`}>
               {card.icon}
